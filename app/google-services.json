@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611647549555",
+    "project_id": "shared-inventory-management",
+    "storage_bucket": "shared-inventory-management.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611647549555:android:18524f2a0ff08f5cc3ba06",
+        "android_client_info": {
+          "package_name": "com.meet.shared_inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVGVy0c_nIGbHZyCytMNKnii3P7Dnc6Z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
