@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Shared_inventory" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Shared_inventory" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <style name="CustomAutoCompleteTextViewStyle" parent="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">

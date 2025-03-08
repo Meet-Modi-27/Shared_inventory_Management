@@ -51,4 +51,6 @@ dependencies {
 
     implementation("com.google.android.gms:play-services-auth:21.3.0")
     implementation("com.firebaseui:firebase-ui-database:8.0.2")
+
+    implementation ("com.google.android.material:material:1.10.0")
 }
