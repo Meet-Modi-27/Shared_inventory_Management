@@ -53,4 +53,16 @@ dependencies {
     implementation("com.firebaseui:firebase-ui-database:8.0.2")
 
     implementation ("com.google.android.material:material:1.10.0")
+
+    implementation ("com.google.android.material:material:1.12.0")
+
+    implementation ("me.dm7.barcodescanner:zbar:1.9")
+    implementation("androidx.multidex:multidex:2.0.1")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
+    implementation ("com.google.mlkit:barcode-scanning:17.2.0")
+    implementation ("androidx.camera:camera-core:1.3.0")
+    implementation ("androidx.camera:camera-camera2:1.3.0")
+    implementation ("androidx.camera:camera-lifecycle:1.3.0")
+    implementation ("androidx.camera:camera-view:1.3.0")
+
 }

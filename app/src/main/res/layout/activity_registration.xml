@@ -42,6 +42,7 @@
         android:layout_weight="1" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
         style="@style/CustomAutoCompleteTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -62,10 +63,11 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
         style="@style/CustomAutoCompleteTextViewStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -86,7 +88,7 @@
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -113,7 +115,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -140,7 +142,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -164,7 +166,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -189,31 +191,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="45dp"
-            android:textColor="#fff" />
+            android:textColor="#000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/roleLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:hint="Role"
-        android:layout_gravity="center"
-        app:endIconMode="dropdown_menu"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        app:endIconMode="dropdown_menu">
 
         <com.google.android.material.textfield.MaterialAutoCompleteTextView
             android:id="@+id/Role"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:inputType="none"
-            android:textColor="@android:color/black"
-            android:dropDownHeight="wrap_content"
             android:dropDownWidth="match_parent"
-            android:paddingStart="5dp"/>
+            android:dropDownHeight="wrap_content"
+            android:inputType="none"
+            android:paddingStart="5dp"
+            android:textColor="@android:color/black" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
 
     <View
@@ -222,6 +224,7 @@
         android:layout_weight="1" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Reg_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

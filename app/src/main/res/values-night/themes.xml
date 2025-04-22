@@ -4,6 +4,7 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <item name="android:windowIsTranslucent">true</item>
+        <item name="android:statusBarColor">#80000000</item>
     </style>
 
     <style name="CustomAutoCompleteTextViewStyle" parent="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
@@ -15,6 +16,20 @@
         <item name="android:textColorHint">#000</item>
         <item name="android:popupBackground">#FFFFFF</item>
         <item name="textOutlineColor">#9747FF</item>
+    </style>
+
+    <style name="LoginActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+
+    <style name="MyAlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="android:textColorPrimary">#000</item>
+        <item name="android:background">#fff</item>
     </style>
 
 </resources>
