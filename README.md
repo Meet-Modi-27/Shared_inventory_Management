@@ -50,5 +50,5 @@ Contributions are welcome!
 
 ---
 
-## 👨‍💻 **Author
-Meet Modi**
+## 👨‍💻 <b>Author</b>
+**Meet Modi**
