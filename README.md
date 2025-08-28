@@ -16,7 +16,7 @@
 
 ## 🛠️ Tech Stack  
 
-- **Frontend (Mobile App):** Android (Java/Kotlin)  
+- **Frontend (Mobile App):** Android (Java)  
 - **Backend:** Firebase Realtime Database  
 - **Authentication:** Firebase Auth (Email/Password, Google Sign-In)  
 - **Storage:** Firebase Storage (optional, for item images)  
