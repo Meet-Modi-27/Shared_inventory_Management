@@ -1,6 +1,6 @@
 # 📦 Shared Inventory Management App  
 
-A collaborative **Shared Inventory Management App** that helps groups like roommates, clubs, or small businesses efficiently manage and share their items. The app keeps track of items, updates availability in real-time, and makes collaboration easier.  
+&emsp;A collaborative **Shared Inventory Management App** that helps groups like roommates, clubs, or small businesses efficiently manage and share their items. The app keeps track of items, updates availability in real-time, and makes collaboration easier.  
 
 ---
 
